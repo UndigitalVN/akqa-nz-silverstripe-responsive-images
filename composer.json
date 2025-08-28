@@ -15,5 +15,8 @@
         "psr-4": {
             "Heyday\\ResponsiveImages\\": "code/"
         }
+    },
+	"replace": {
+        "heyday/silverstripe-responsive-images": "self.version"
     }
 }
