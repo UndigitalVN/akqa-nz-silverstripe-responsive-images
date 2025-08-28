@@ -2,13 +2,14 @@
 
 namespace Heyday\ResponsiveImages;
 
-use SilverStripe\Core\Config\Config;
-use SilverStripe\Core\Extension;
-use SilverStripe\ORM\ArrayList;
-use SilverStripe\View\ArrayData;
-use SilverStripe\View\Requirements;
 use Exception;
 use RuntimeException;
+use SilverStripe\Core\Config\Config;
+use SilverStripe\Core\Extension;
+use SilverStripe\Model\ArrayData;
+use SilverStripe\Model\List\ArrayList;
+use SilverStripe\View\Requirements;
+use SilverStripe\View\SSViewer;
 
 /**
  * An extension to the Image class to inject methods for responsive image sets.
